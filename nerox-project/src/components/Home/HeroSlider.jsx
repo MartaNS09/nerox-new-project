@@ -74,8 +74,8 @@ const HeroSlider = () => {
                               {item.subtitle}
                             </h3>
                             <div className="tpbs-btn mt-40">
-                              <Link href="/contact" className="tp-solid-btn">
-                                  Бесплатная консультация
+                              <Link href="#footer" className="tp-solid-btn">
+                                Бесплатная консультация
                               </Link>
                             </div>
                           </div>

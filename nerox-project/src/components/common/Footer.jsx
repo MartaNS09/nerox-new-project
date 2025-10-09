@@ -33,7 +33,7 @@ const Footer = () => {
     });
   return (
     <>
-      <footer>
+      <footer id="footer">
         <div className="tpfooter-area black-bg pt-115 pb-40">
           <div className="container">
             <div className="row">
@@ -172,9 +172,7 @@ const Footer = () => {
               </div>
               <div className="col-xl-6 col-lg-5">
                 <div className="copyright-links">
-                  <Link href="/privacy">
-                    Политика конфиденциальности
-                  </Link>
+                  <Link href="/privacy">Политика конфиденциальности</Link>
                 </div>
               </div>
             </div>
