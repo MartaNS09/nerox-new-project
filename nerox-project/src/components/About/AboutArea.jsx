@@ -35,7 +35,7 @@ const AboutArea = () => {
                 </p>
                 <div className="tpabout-btn mt-50">
                   {/* ПЕРЕВОД: Contact us -> Связаться с нами */}
-                  <Link href="/contact" className="tp-solid-btn">Связаться с нами</Link>
+                  <Link href="#footer" className="tp-solid-btn">Связаться с нами</Link>
                 </div>
               </div>
             </div>

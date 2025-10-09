@@ -18,7 +18,7 @@ const Cta = ({ padd }) => {
                   ожиданиям.
                 </p>
                 <div className="tp-cta-btn mt-25">
-                  <Link href="/contact" className="tp-solid-btn-square">
+                  <Link href="#footer" className="tp-solid-btn-square">
                     Связаться с нами
                   </Link>
                 </div>
