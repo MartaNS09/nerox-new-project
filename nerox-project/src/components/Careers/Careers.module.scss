@@ -1,0 +1,169 @@
+/* Безопасные исправления для страницы карьеры */
+
+.careersPage {
+  /* Контейнер для всей страницы */
+}
+
+/* Карточки вакансий */
+.jobCard {
+  background: var(--tp-common-white);
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--tp-border-1);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+  }
+}
+
+[data-theme="dark"] .jobCard {
+  background: var(--tp-common-black);
+  border-color: var(--tp-border-1);
+}
+
+/* Заголовки */
+.jobTitle {
+  color: var(--tp-heading-primary);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+[data-theme="dark"] .jobTitle {
+  color: var(--tp-common-white);
+}
+
+/* Текст */
+.jobText {
+  color: var(--tp-text-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+[data-theme="dark"] .jobText {
+  color: var(--tp-text-7);
+}
+
+/* ФИКС: СТИЛЬНАЯ КНОПКА как на сайте */
+.resumeButton {
+  /* Градиент как на основном сайте */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white !important;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    color: white !important;
+  }
+  
+  /* Анимация иконки */
+  span {
+    transition: transform 0.3s ease;
+  }
+  
+  &:hover span {
+    transform: scale(1.2) rotate(10deg);
+  }
+}
+
+/* Альтернативный вариант кнопки - если нужен другой стиль */
+.tpBtnAlternative {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: 2px solid #667eea;
+  
+  &:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    color: white;
+  }
+}
+
+/* ФИКС: Заголовок "Мы открыты к сотрудничеству" для темной темы */
+.sectionTitleDark {
+  color: var(--tp-heading-primary);
+}
+
+[data-theme="dark"] .sectionTitleDark {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* ФИКС: Подзаголовок для темной темы */
+.sectionSubtitleDark {
+  color: var(--tp-text-body);
+}
+
+[data-theme="dark"] .sectionSubtitleDark {
+  color: #e2e8f0 !important;
+}
+
+/* Списки */
+.jobList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.jobListItem {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+  
+  &::before {
+    content: "•";
+    position: absolute;
+    left: 8px;
+    color: var(--tp-theme-1);
+    font-weight: bold;
+  }
+}
+
+/* CTA секция */
+.ctaSection {
+  background: var(--tp-grey-2);
+}
+
+[data-theme="dark"] .ctaSection {
+  background: var(--tp-common-black);
+}
+
+/* Контактная информация */
+.contactItem {
+  background: rgba(102, 126, 234, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid rgba(102, 126, 234, 0.1);
+}
+
+.contactEmail {
+  color: var(--tp-theme-1);
+  font-weight: 600;
+}
+
+/* Убедимся что кнопка переопределяет стандартные стили */
+.contact__btn .resumeButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.contact__btn .resumeButton:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%) !important;
+  color: white !important;
+}
