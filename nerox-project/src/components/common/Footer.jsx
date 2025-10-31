@@ -70,12 +70,7 @@ const Footer = () => {
                       </div>
                       <div className="footer__list-text">
                         <p>
-                          <a href="mailto:rasalinawillam@gmail.com">
-                            rasalinawillam@gmail.com
-                          </a>
-                        </p>
-                        <p>
-                          <a href="mailto:info@gmail.com">info@gmail.com</a>
+                          <a href="mailto:info@apsod.by">info@apsod.com</a>
                         </p>
                       </div>
                     </div>
@@ -84,11 +79,39 @@ const Footer = () => {
                         <i className="fa-solid fa-phone-flip"></i>
                       </div>
                       <div className="footer__list-text">
-                        {/* Ваш реальный номер телефона */}
-
                         <p>
                           <a href="tel:+375445777724">+375 (44) 577-77-24</a>
                         </p>
+                      </div>
+                    </div>
+
+                    {/* Блок с иконками мессенджеров */}
+                    <div className="footer__list-item mb-40">
+                      <div className="footer__list-icon">
+                        {/* Оставляем ПУСТО - никакой иконки! */}
+                      </div>
+                      <div className="footer__list-text">
+                        <div className="footer__social-icons">
+                          <a
+                            href="https://wa.me/375445777724"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer__social-icon"
+                          >
+                            <i className="fab fa-whatsapp"></i>
+                          </a>
+                          <a
+                            href="https://t.me/+375445777724"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="footer__social-icon"
+                          >
+                            <i className="fab fa-telegram"></i>
+                          </a>
+                          <a href="#" className="footer__social-icon">
+                            <i className="fab fa-facebook-f"></i>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>

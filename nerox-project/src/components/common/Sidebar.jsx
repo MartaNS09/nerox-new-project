@@ -203,8 +203,51 @@ const Sidebar = ({ headerMenu, dynamic }) => {
                 </li>
               </ul>
             </div>
+            {/* <div className="sidebar__social">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div> */}
+
             <div className="sidebar__social">
               <ul>
+                <li>
+                  <a
+                    href="https://wa.me/375445777724"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://t.me/+375445777724"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-telegram"></i>
+                  </a>
+                </li>
                 <li>
                   <a href="#">
                     <i className="fab fa-facebook-f"></i>
