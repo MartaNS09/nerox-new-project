@@ -4,4 +4,4 @@
 // @use '../public/assets/css/font-awesome-pro.css';
 @use "../public/assets/flaticon/flaticon.css";
 @import "react-image-lightbox/style.css";
-@import 'react-circular-progressbar/dist/styles.css';
+@import 'react-circular-progressbar/dist/styles.css';/* Fix horizontal scroll */ body { overflow-x: hidden; }
