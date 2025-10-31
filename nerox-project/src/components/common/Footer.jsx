@@ -70,7 +70,12 @@ const Footer = () => {
                       </div>
                       <div className="footer__list-text">
                         <p>
-                          <a href="mailto:info@apsod.by">info@apsod.com</a>
+                          <a href="mailto:karelinseo@gmail.com">
+                            karelinseo@gmail.com
+                          </a>
+                        </p>
+                        <p>
+                          <a href="mailto:info@apsod.com">info@apsod.com</a>
                         </p>
                       </div>
                     </div>

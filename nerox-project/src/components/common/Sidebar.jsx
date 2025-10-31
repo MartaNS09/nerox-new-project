@@ -197,37 +197,15 @@ const Sidebar = ({ headerMenu, dynamic }) => {
                     <i className="fal fa-envelope"></i>
                   </div>
                   <div className="sidebar__contact-text">
-                    {/* Ваш email */}
-                    <a href="mailto:info@apsod.by">info@apsod.by</a>
+                    <a href="mailto:karelinseo@gmail.com">
+                      karelinseo@gmail.com
+                    </a>
+                    <br />
+                    <a href="mailto:info@apsod.com">info@apsod.com</a>
                   </div>
                 </li>
               </ul>
             </div>
-            {/* <div className="sidebar__social">
-              <ul>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div> */}
-
             <div className="sidebar__social">
               <ul>
                 <li>
