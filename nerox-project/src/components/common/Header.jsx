@@ -120,7 +120,7 @@ const Header = ({
                           {headerSticky ? (
                             <button
                               onClick={() => setSearchOpen(true)}
-                              className="search-btn"
+                              className="search-btn d-none d-md-inline-block"
                             >
                               <i className="fas fa-search"></i>
                             </button>
@@ -128,7 +128,7 @@ const Header = ({
                             <button
                               style={{ color: "white" }}
                               onClick={() => setSearchOpen(true)}
-                              className="search-btn"
+                              className="search-btn d-none d-md-inline-block"
                             >
                               <i className="fas fa-search"></i>
                             </button>
@@ -231,7 +231,7 @@ const Header = ({
                             {headerSticky ? (
                               <button
                                 onClick={() => setSearchOpen(true)}
-                                className="search-btn"
+                                className="search-btn d-none d-md-inline-block"
                               >
                                 <i className="fas fa-search"></i>
                               </button>
@@ -239,7 +239,7 @@ const Header = ({
                               <button
                                 style={{ color: "white" }}
                                 onClick={() => setSearchOpen(true)}
-                                className="search-btn"
+                                className="search-btn d-none d-md-inline-block"
                               >
                                 <i className="fas fa-search"></i>
                               </button>
