@@ -533,16 +533,3 @@
   padding-left: 65px;
   padding-right: 65px;
 }
-
-/* Hover styles for main menu */
-.tpmenu ul li {
-  position: relative;
-  
-  & a {
-    transition: color 0.3s ease;
-  }
-
-  &:hover > a {
-    color: var(--tp-theme-1) !important;
-  }
-}

@@ -119,6 +119,24 @@ const Header = ({
                         <li>
                           {headerSticky ? (
                             <button
+                              onClick={() => setSearchOpen(true)}
+                              className="search-btn"
+                            >
+                              <i className="fas fa-search"></i>
+                            </button>
+                          ) : (
+                            <button
+                              style={{ color: "white" }}
+                              onClick={() => setSearchOpen(true)}
+                              className="search-btn"
+                            >
+                              <i className="fas fa-search"></i>
+                            </button>
+                          )}
+                        </li>
+                        <li>
+                          {headerSticky ? (
+                            <button
                               onClick={() => setShowSidebar(true)}
                               className="info-toggle-btn sidebar-toggle-btn"
                             >
@@ -209,6 +227,24 @@ const Header = ({
                     <div className="tp-header-right d-flex align-items-center justify-content-end">
                       <div className="tp-header-action tp-header-action-8">
                         <ul>
+                          <li>
+                            {headerSticky ? (
+                              <button
+                                onClick={() => setSearchOpen(true)}
+                                className="search-btn"
+                              >
+                                <i className="fas fa-search"></i>
+                              </button>
+                            ) : (
+                              <button
+                                style={{ color: "white" }}
+                                onClick={() => setSearchOpen(true)}
+                                className="search-btn"
+                              >
+                                <i className="fas fa-search"></i>
+                              </button>
+                            )}
+                          </li>
                           <li>
                             {/* <!-- dark mode button start --> */}
                             <div className="mode-switch-wrapper my_switcher setting-option">
@@ -321,7 +357,7 @@ const Header = ({
           <div className="modal-dialog" role="document">
             <div className="modal-content">
               <form>
-                <input type="text" placeholder="Search here..." />
+                <input type="text" placeholder="Введите запрос..." />
                 <button>
                   <i className="fa fa-search"></i>
                 </button>
